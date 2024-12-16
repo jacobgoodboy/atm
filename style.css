@@ -1,0 +1,40 @@
+body{
+    background-color: hsla(237, 71%, 43%, 0.52);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#atm{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#display{
+    text-align: center;
+    font-size: 30px;
+    border: solid black;
+    background-color: rgba(30, 196, 30, 0.51);
+    width: 1000px;
+    height: 500px;
+}
+#numberkeys{
+    border: solid red;
+    width: 9.5%;
+    display:grid;
+    grid-template-columns: repeat(3,2em);
+    justify-content: center;
+    margin: 2px;
+}
+#numberkeys button{
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+}
+#numberkeys button:last-child{
+    background-color: rgb(29, 214, 100);
+    width: 60px;
+    height: 30px;
+    margin: 1px;
+}
